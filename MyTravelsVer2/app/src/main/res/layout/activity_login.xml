@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.6"
+        android:scaleType="centerCrop"
+        android:src="@drawable/anh_ho_guom"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:gravity="bottom">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="My Travels"
+                android:textStyle="bold"
+                android:textSize="40dp"
+                android:textColor="@color/design_default_color_primary"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:gravity="start"
+            android:layout_weight="1.5">
+
+            <EditText
+                android:id="@+id/edt_Email"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginHorizontal="15dp"
+                android:backgroundTint="@color/white"
+                android:drawableStart="@drawable/ic_mail"
+                android:drawableTint="@color/white"
+                android:drawablePadding="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/design_default_color_primary"
+                android:hint="Email"
+                android:textColorHint="@color/white"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:alpha="0.81"
+                />
+
+            <EditText
+                android:id="@+id/edt_Password"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/white"
+                android:drawableStart="@drawable/ic_pass"
+                android:drawableTint="@color/white"
+                android:drawablePadding="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/design_default_color_primary"
+                android:hint="Password"
+                android:textColorHint="@color/white"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:alpha="0.81"
+                />
+
+            <TextView
+                android:layout_marginStart="260dp"
+                android:id="@+id/txt_ForgotPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="20dp"
+                android:text="Forgot password"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+            <CheckBox
+                android:backgroundTint="@color/white"
+                android:id="@+id/cbx_KeepLogin"
+                android:layout_marginHorizontal="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Keep Login"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_Login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="65dp"
+                android:padding="15dp"
+                android:text="Login"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:backgroundTint="@color/cardview_shadow_start_color"
+                app:strokeColor="@color/white"
+                app:cornerRadius="20dp"
+                app:strokeWidth="1dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_Signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                android:padding="15dp"
+                android:text="Signup"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                app:strokeColor="@color/white"
+                app:cornerRadius="20dp"
+                app:strokeWidth="1dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

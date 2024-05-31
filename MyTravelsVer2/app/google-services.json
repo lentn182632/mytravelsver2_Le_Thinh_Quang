@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "941492706371",
+    "project_id": "my-travels-931d8",
+    "storage_bucket": "my-travels-931d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941492706371:android:5d2d70d26790a015c988f6",
+        "android_client_info": {
+          "package_name": "com.example.mytravels"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941492706371-olp2aer9vbr0cn6ru0105auietadsajo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mytravels",
+            "certificate_hash": "c598aeff07068de81b032ba764c645fdc231bdb5"
+          }
+        },
+        {
+          "client_id": "941492706371-mc19cqmb9ctrv8m57npg7je01fn71gas.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPqPuyRBkjmo-WgBjA83hd3QTVwIOqpPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941492706371-mc19cqmb9ctrv8m57npg7je01fn71gas.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941492706371:android:2d01ab5dc5fd14acc988f6",
+        "android_client_info": {
+          "package_name": "com.example.mytravelsver2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941492706371-mc19cqmb9ctrv8m57npg7je01fn71gas.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPqPuyRBkjmo-WgBjA83hd3QTVwIOqpPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941492706371-mc19cqmb9ctrv8m57npg7je01fn71gas.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
